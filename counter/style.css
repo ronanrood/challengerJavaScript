@@ -37,6 +37,8 @@ body{
     color: #fff;
     font-size: 24px;
     cursor: pointer;
+    transition: opacity 0.5s;
+    border-radius: 5px;
 }
 .bttCounter:hover{
     opacity: 0.8;
@@ -51,7 +53,14 @@ body{
     height: 40px;
     font-size: 24px;
     background-color: rgba(23, 144, 23, 0.533);
+    transition: opacity 0.5s;
 }
 #reset:hover{
     opacity: 0.8;
+}
+
+@media screen and (max-width:600px){
+.counter{
+    height: 100vh;
+}
 }
